@@ -21,6 +21,21 @@ html {
   box-sizing: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -134,7 +149,11 @@ ul.list.contacts-set {
 
 .site-nav,
 .header-contacts {
-  line-height: 1.2;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
   letter-spacing: 0.02em;
 }
 
@@ -172,12 +191,16 @@ ul.list.contacts-set {
   color: var(--important-color);
   /* outline: 1px solid lawngreen; */
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
   padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
-.hero-title {
+.hero-section .hero-title {
+  margin-bottom: 30px;
+}
+.hero-section .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -187,7 +210,9 @@ ul.list.contacts-set {
   margin-bottom: 40px;
   /* outline: 1px solid red; */
 }
-
+.hero-section .main-button {
+  margin-bottom: 0;
+}
 .main-button {
   display: inline-block;
   background-color: var(--accent-color);
@@ -208,13 +233,13 @@ ul.list.contacts-set {
 .advantages-section,
 .work-section {
   background-color: var(--important-color);
-  /* outline: 1px solid blue; */
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .advantages-section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages-set .advantages-set-item:not(:first-child) {
@@ -242,7 +267,7 @@ ul.list.contacts-set {
 /* Work section styles*/
 
 .work-section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .work-section-header,
@@ -290,8 +315,10 @@ ul.list.contacts-set {
 }
 
 .filter {
+  margin-top: 0;
+  margin-bottom: 34px;
   padding-top: 94px;
-  padding-bottom: 34px;
+  padding-bottom: 0;
 }
 
 .filter-buttons .filter-buttons-item:not(:first-child) {
@@ -331,6 +358,9 @@ ul.list.contacts-set {
   padding-bottom: 94px;
 }
 
+.examples-set-items {
+  border-bottom: 1px solid #ececec;
+}
 .product-header {
   font-weight: 700;
   font-size: 18px;
@@ -363,7 +393,14 @@ ul.list.contacts-set {
 .footer-logo {
   margin-bottom: 20px;
 }
-
+.actual-address,
+a {
+  display: block;
+  margin-bottom: 9px;
+}
+.footer-address .footer-contacts:not(:first-child) {
+  margin-bottom: 9px;
+}
 .studio-down {
   font-family: Raleway;
   font-weight: 700;
