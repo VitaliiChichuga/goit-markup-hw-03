@@ -393,14 +393,13 @@ ul.list.contacts-set {
 .footer-logo {
   margin-bottom: 20px;
 }
-.actual-address,
-a {
+
+.footer-contacts,
+.actual-address {
   display: block;
   margin-bottom: 9px;
 }
-.footer-address .footer-contacts:not(:first-child) {
-  margin-bottom: 9px;
-}
+
 .studio-down {
   font-family: Raleway;
   font-weight: 700;
