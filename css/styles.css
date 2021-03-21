@@ -366,6 +366,13 @@ ul.list.contacts-set {
 .examples-set-items {
   border-bottom: 1px solid #ececec;
 }
+
+.title-paragraph {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .product-header {
   font-weight: 700;
   font-size: 18px;
@@ -386,12 +393,6 @@ ul.list.contacts-set {
   margin-bottom: 0px;
   padding-left: 24px;
   padding-right: 24px;
-}
-.title-paragraph {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /* footer styles */
