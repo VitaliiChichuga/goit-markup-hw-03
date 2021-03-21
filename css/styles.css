@@ -384,6 +384,8 @@ ul.list.contacts-set {
   line-height: 1.87;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .title-paragraph {
   padding-left: 24px;
