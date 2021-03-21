@@ -295,9 +295,14 @@ ul.list.contacts-set {
   --grid-item: 4;
 }
 
+.teammates {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .teammates-names {
   color: var(--important-text-color);
-  margin-top: 30px;
+
+  margin-top: 0;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -305,7 +310,7 @@ ul.list.contacts-set {
 .teammates-position {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 /* Portfolio page styles */
 
@@ -314,9 +319,9 @@ ul.list.contacts-set {
   justify-content: center;
 }
 
-.filter {
+.filter-buttons.list {
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   padding-top: 94px;
   padding-bottom: 0;
 }
@@ -354,7 +359,7 @@ ul.list.contacts-set {
   padding-bottom: 20px;
 }
 
-.examples {
+.grid.list {
   padding-bottom: 94px;
 }
 
@@ -379,9 +384,14 @@ ul.list.contacts-set {
   line-height: 1.87;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.title-paragraph {
   padding-left: 24px;
   padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 /* footer styles */
 
 .main-foter {
@@ -390,7 +400,7 @@ ul.list.contacts-set {
   padding-bottom: 60px;
 }
 
-.footer-logo {
+.logotyp {
   margin-bottom: 20px;
 }
 
