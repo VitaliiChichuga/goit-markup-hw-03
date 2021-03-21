@@ -313,6 +313,10 @@ ul.list.contacts-set {
   margin-bottom: 0;
 }
 /* Portfolio page styles */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .filter-buttons {
   display: flex;
@@ -322,7 +326,7 @@ ul.list.contacts-set {
 .filter-buttons.list {
   margin-top: 0;
   margin-bottom: 50px;
-  padding-top: 94px;
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -356,11 +360,6 @@ ul.list.contacts-set {
 .examples-set-items {
   border: 1px solid var(--borders-color);
   --grid-item: 3;
-  padding-bottom: 20px;
-}
-
-.grid.list {
-  padding-bottom: 94px;
 }
 
 .examples-set-items {
@@ -381,9 +380,6 @@ ul.list.contacts-set {
   color: var(--important-text-color);
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
 }
 
 .product-description {
@@ -391,8 +387,6 @@ ul.list.contacts-set {
   line-height: 1.87;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 /* footer styles */
